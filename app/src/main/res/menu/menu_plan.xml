@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.PlanActivity">
+
+
+    <item
+        android:id="@+id/add_plan_activity"
+        android:title="@string/main_menu_add"
+        app:showAsAction="always" />
+</menu>

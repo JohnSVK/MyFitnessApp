@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.MainActivity">
+
+
+    <item
+        android:id="@+id/main_menu_add"
+        android:title="@string/main_menu_add"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/main_menu_add_food"
+                android:title="@string/main_menu_add_food" />
+            <item
+                android:id="@+id/main_menu_add_activity"
+                android:title="@string/main_menu_add_activity" />
+        </menu>
+
+    </item>
+
+
+</menu>

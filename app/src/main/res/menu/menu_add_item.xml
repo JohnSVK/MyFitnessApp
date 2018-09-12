@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.AddItemActivity">
+
+
+    <item
+        android:id="@+id/menu_add_item_confirm"
+        android:title="@string/add_item_menu_confirm"
+        app:showAsAction="always" />
+</menu>

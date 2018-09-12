@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/drawer_menu_main"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/title_home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="@string/title_profile" />
+        <item
+            android:id="@+id/nav_plan"
+            android:icon="@drawable/ic_menu_plan"
+            android:title="@string/title_plan"
+            />
+    </group>
+
+    <group
+        android:id="@+id/drawer_menu_options"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_stats"
+            android:icon="@drawable/ic_menu_stats"
+            android:title="@string/title_stats" />
+    </group>
+
+    <group
+        android:id="@+id/drawer_menu_connect_google"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_connect_google"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="@string/title_connect_google" />
+
+    </group>
+
+    <group
+        android:id="@+id/drawer_menu_logout"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="@string/title_logout" />
+
+    </group>
+</menu>

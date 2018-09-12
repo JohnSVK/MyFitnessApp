@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="add_entry_mic_btn" type="id" />
+    <item name="add_entry_walk_btn" type="id" />
+    <item name="add_entry_run_btn" type="id" />
+    <item name="add_entry_cycle_btn" type="id" />
+    <item name="add_entry_edit_txt" type="id">add_entry_edit_txt</item>
+    <item name="add_entry_manual_confirm" type="id">add_entry_manual_confirm</item>
+</resources>
